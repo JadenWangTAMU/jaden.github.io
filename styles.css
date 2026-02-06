@@ -1,0 +1,61 @@
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #222222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+header,
+main,
+footer {
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid #cccccc;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input,
+textarea,
+button {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    width: fit-content;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    border-top: 2px solid #cccccc;
+    text-align: center;
+}
