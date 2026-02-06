@@ -163,3 +163,14 @@ footer {
 footer p {
     margin-bottom: 0.5rem;
 }
+
+/* =========================
+   Class Center Image
+   ========================= */
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Optional, but must be less than 100% */
+}
